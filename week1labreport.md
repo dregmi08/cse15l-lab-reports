@@ -1,3 +1,5 @@
+This blog post contains instructions on how to connect to the CSE basement and run commands in the terminal.
+
 __Step 1__ : Looking up your CSE 15L account 
 For this step, I went to the following link: https://sdacs.ucsd.edu/~icc/index.php
 Instead of opting to change my password to something else, I used my canvas log in password since the password met the strength requirement. 
@@ -17,4 +19,15 @@ ssh cs15lwi23--@ieng6.ucsd.edu, The two dashes should be replaced by the last tw
 __Step 6__ : Messages/Passwords
 If you are connecting to the server for the first time, then you will get a question about whether you want to continue connecting. Type yes in the terminal and press enter.You will then be asked to type in the password that corresponds to your course-specific account. When doing so, the characters you type won't show up in the terminal, but they are being entered. After typing your password and pressing enter, you are now ready to run commands using th ecommand line.
 
+__Step 7__ : Trying Some Commands
+Here are some of the commands that I used:
+cd ~
+cd
+ls -lat
+ls -a
+pwd
+mkdir
+cp (cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/)
+cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
+And you're done! through following these exact steps, you should've connected to the CSE Basement server, be able to log in, and run the commands.
