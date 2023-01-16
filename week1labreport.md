@@ -35,7 +35,7 @@ If you are connecting to the server for the first time, then you will get a ques
 
 __Step 6__ : Trying Some Commands
 ---
-Here are some of the commands that I used:
+Here are some of the commands that you can use used:
 * cd ~
 * cd
 * ls -lat
@@ -44,5 +44,8 @@ Here are some of the commands that I used:
 * mkdir
 * cp (cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/)
 * cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+
+Here is an image of what my terminal looked like after running some commands:
+![Image](Screen Shot 2023-01-12 at 1.36.18 PM.png)
 
 And you're done! through following these exact steps, you should've connected to the CSE Basement server, be able to log in, and run the commands.
