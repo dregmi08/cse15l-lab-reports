@@ -4,7 +4,7 @@ __Step 1__ : Looking up your CSE 15L account
 ---
 ![Image](Screen Shot 2023-01-15 at 10.50.57 PM.png)
 For this step, I went to the following link: [CSE 15L Password Lookup](https://sdacs.ucsd.edu/~icc/index.php)
-Instead of opting to change my password to something else, I used my canvas log in password since the password met the strength requirement. 
+/n Instead of opting to change my password to something else, I used my canvas log in password since the password met the strength requirement. 
 
 
 
