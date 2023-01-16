@@ -18,7 +18,7 @@ __Step 3__ : Opening the Terminal
 ---
 ![Image](Screen Shot 2023-01-15 at 10.58.11 PM.png)
 
-Since I am using a Macbook, I did not need to install git for Windows. To remotely connect, first open a new terminal, which you can do by selecting "Terminal" -> New Terminal in the toolbar at the top of your screen. You can also click towards the bottom of the VSCode screen and drag up.
+Since I am using a Macbook, I did not need to install git for Windows. However, to do so, you can go [here](https://gitforwindows.org/). To remotely connect, first open a new terminal, which you can do by selecting "Terminal" -> New Terminal in the toolbar at the top of your screen. You can also click towards the bottom of the VSCode screen and drag up.
 
 __Step 4__ : Using ssh and Logging in
 ---
