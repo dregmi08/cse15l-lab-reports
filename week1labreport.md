@@ -28,13 +28,13 @@ If you are connecting to the server for the first time, then you will get a ques
 __Step 6__ : Trying Some Commands
 ---
 Here are some of the commands that I used:
-cd ~
-cd
-ls -lat
-ls -a
-pwd
-mkdir
-cp (cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/)
-cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+* cd ~
+* cd
+* ls -lat
+* ls -a
+* pwd
+* mkdir
+* cp (cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/)
+* cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
 And you're done! through following these exact steps, you should've connected to the CSE Basement server, be able to log in, and run the commands.
