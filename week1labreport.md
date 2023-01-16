@@ -24,7 +24,7 @@ __Step 4__ : Using ssh and Logging in
 ---
 In order to log in to your account, type the words ssh, followed by your course specific account username, followed by ieng6@ucsd.edu. This should be done in the command line in you terminal and should look like this:
 
-ssh cs15lwi23--@ieng6.ucsd.edu, The two dashes should be replaced by the last two letters in your username that are unique to you
+- ssh cs15lwi23--@ieng6.ucsd.edu, The two dashes should be replaced by the last two letters in your username that are unique to you
 
 __Step 5__ : Messages/Passwords
 ---
