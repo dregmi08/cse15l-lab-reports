@@ -1,9 +1,11 @@
 This blog post contains instructions on how to connect to the CSE basement and run commands in the terminal.
 
 __Step 1__ : Looking up your CSE 15L account 
+---
 For this step, I went to the following link: https://sdacs.ucsd.edu/~icc/index.php
 Instead of opting to change my password to something else, I used my canvas log in password since the password met the strength requirement. 
 
+![Image](Screen Shot 2023-01-15 at 9.40.09 PM.png)
 __Step 2__ : Installing VSCode
 In order to login to your course-specific account using ieng6, you need to download VSCode and use the command line. For this particular step, I did 
 not need to install the IDE since I had done that last quarter for CSE 11.
