@@ -17,6 +17,7 @@ not need to install the IDE since I had done that last quarter for CSE 11.
 __Step 3__ : Opening the Terminal
 ---
 ![Image](Screen Shot 2023-01-15 at 10.58.11 PM.png)
+
 Since I am using a Macbook, I did not need to install git for Windows. To remotely connect, first open a new terminal, which you can do by selecting "Terminal" -> New Terminal in the toolbar at the top of your screen. You can also click towards the bottom of the VSCode screen and drag up.
 
 __Step 4__ : Using ssh and Logging in
@@ -27,6 +28,7 @@ ssh cs15lwi23--@ieng6.ucsd.edu, The two dashes should be replaced by the last tw
 
 __Step 5__ : Messages/Passwords
 ---
+![Image](Screen Shot 2023-01-15 at 11.06.26 PM.png)
 If you are connecting to the server for the first time, then you will get a question about whether you want to continue connecting. Type yes in the terminal and press enter.You will then be asked to type in the password that corresponds to your course-specific account. When doing so, the characters you type won't show up in the terminal, but they are being entered. After typing your password and pressing enter, you are now ready to run commands using th ecommand line. This is what your terminal should look like after connecting:
 
 ![Image](Screen Shot 2023-01-15 at 11.00.59 PM.png)
