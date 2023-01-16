@@ -35,7 +35,7 @@ If you are connecting to the server for the first time, then you will get a ques
 
 __Step 6__ : Trying Some Commands
 ---
-Here are some of the commands that you can use used:
+Here are some of the commands that you can use:
 * cd ~
 * cd
 * ls -lat
