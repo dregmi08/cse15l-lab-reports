@@ -18,7 +18,7 @@ __Step 3__ : Opening the Terminal
 ---
 ![Image](Screen Shot 2023-01-15 at 10.58.11 PM.png)
 
-Since I am using a Macbook, I did not need to install git for Windows nor did I need to download Git Bash.. However, to do so, you can go [here](https://gitforwindows.org/). To use bash for windows, you can follow the instructions on this[Stack Overflow page](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994). To remotely connect, first open a new terminal, which you can do by selecting "Terminal" -> "New Terminal" in the toolbar at the top of your screen. You can also click towards the bottom of the VSCode screen and drag up. On my computer, I opened the bash terminal by clicking the down arrow next to the plus sign towards the bottom of the screen and then selecting bash. 
+Since I am using a Macbook, I did not need to install git for Windows nor did I need to download Git Bash.. However, to do so, you can go [here](https://gitforwindows.org/). To use bash for windows, you can follow the instructions on this [Stack Overflow page](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994). To remotely connect, first open a new terminal, which you can do by selecting "Terminal" -> "New Terminal" in the toolbar at the top of your screen. You can also click towards the bottom of the VSCode screen and drag up. On my computer, I opened the bash terminal by clicking the down arrow next to the plus sign towards the bottom of the screen and then selecting bash. When doing this, the terminal gives you a message like this :
 
 __Step 4__ : Using ssh and Logging in
 ---
