@@ -4,7 +4,7 @@ __Step 1__ : Looking up your CSE 15L account
 ---
 ![Image](Screen Shot 2023-01-15 at 10.50.57 PM.png)
 For this step, I went to the following link: [CSE 15L Password Lookup](https://sdacs.ucsd.edu/~icc/index.php)
-/n Instead of opting to change my password to something else, I used my canvas log in password since the password met the strength requirement. 
+Instead of opting to change my password to something else, I used my canvas log in password since it met the strength requirement. 
 
 
 
@@ -12,7 +12,7 @@ __Step 2__ : Installing VSCode
 ---
 ![Image](Screen Shot 2023-01-15 at 9.40.09 PM.png)
 In order to login to your course-specific account using ieng6, you need to download VSCode and use the command line. For this particular step, I did 
-not need to install the IDE since I had done that last quarter for CSE 11.
+not need to install the IDE since I had done that last quarter for CSE 11. If you don't have it installed, you can go to the [VSCode Website](https://code.visualstudio.com/download) and download the appropriate version (in my case, VSCode for Mac).
 
 __Step 3__ : Opening the Terminal
 ---
