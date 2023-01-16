@@ -5,7 +5,7 @@ __Step 1__ : Looking up your CSE 15L account
 For this step, I went to the following link: https://sdacs.ucsd.edu/~icc/index.php
 Instead of opting to change my password to something else, I used my canvas log in password since the password met the strength requirement. 
 
-[Image](Screen Shot 2023-01-15 at 9.40.09 PM.png)
+![Image](Screen Shot 2023-01-15 at 9.40.09 PM.png)
 
 __Step 2__ : Installing VSCode
 ---
