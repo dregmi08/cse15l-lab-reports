@@ -27,7 +27,9 @@ ssh cs15lwi23--@ieng6.ucsd.edu, The two dashes should be replaced by the last tw
 
 __Step 5__ : Messages/Passwords
 ---
-If you are connecting to the server for the first time, then you will get a question about whether you want to continue connecting. Type yes in the terminal and press enter.You will then be asked to type in the password that corresponds to your course-specific account. When doing so, the characters you type won't show up in the terminal, but they are being entered. After typing your password and pressing enter, you are now ready to run commands using th ecommand line.
+If you are connecting to the server for the first time, then you will get a question about whether you want to continue connecting. Type yes in the terminal and press enter.You will then be asked to type in the password that corresponds to your course-specific account. When doing so, the characters you type won't show up in the terminal, but they are being entered. After typing your password and pressing enter, you are now ready to run commands using th ecommand line. This is what your terminal should look like after connecting:
+
+![Image](Screen Shot 2023-01-15 at 11.00.59 PM.png)
 
 __Step 6__ : Trying Some Commands
 ---
