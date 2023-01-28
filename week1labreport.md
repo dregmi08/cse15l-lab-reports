@@ -24,7 +24,7 @@ __Step 4__ : Using ssh and Logging in
 ---
 In order to log in to your account, type the words ssh, followed by your course specific account username, followed by ieng6@ucsd.edu. This should be done in the command line in you terminal and should look like this:
 
-- 'ssh cs15lwi23--@ieng6.ucsd.edu', The two dashes should be replaced by the last two letters in your username that are unique to you
+- `ssh cs15lwi23--@ieng6.ucsd.edu`, The two dashes should be replaced by the last two letters in your username that are unique to you
 
 __Step 5__ : Messages/Passwords
 ---
@@ -36,14 +36,14 @@ If you are connecting to the server for the first time, then you will get a ques
 __Step 6__ : Trying Some Commands
 ---
 Here are some of the commands that you can use:
-* 'cd ~'
-* 'cd'
-* 'ls -lat'
-* 'ls -a'
-* 'pwd'
-* 'mkdir'
-* 'cp (cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/)'
-* 'cat /home/linux/ieng6/cs15lwi23/public/hello.txt'
+* `cd ~`
+* `cd`
+* `ls -lat`
+* `ls -a`
+* `pwd`
+* `mkdir`
+* `cp (cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/)`
+* `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
 Here is an image of what my terminal looked like after running some commands:
 ![Image](Screen Shot 2023-01-12 at 1.36.18 PM.png)
