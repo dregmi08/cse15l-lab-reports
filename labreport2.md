@@ -52,3 +52,5 @@ In this screenshot, the same methods are called as in the aforementioned request
 
 __Part 2__ : 
 ---
+
+The bug I am choosing for Part 2 is the one inside the `averageWithoutLowest(double[] arr)` method in the `ArrayExamples.java` file
