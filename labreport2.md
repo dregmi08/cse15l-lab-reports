@@ -72,3 +72,31 @@ The method (before fixing it) looks like this:
   }
   
   ```
+The issue with this particular program is that if you have multiple occurances of the lowest number, you have to divide the sum by the array length minus the number of times `lowest` appears in the array. Here is an example of a failure inducing input for the current code:
+
+```
+  @Test
+  public void testAvgWithoutLowest() {
+    double [] input4 = new double [] {2.0, 4.0, 6.0, 2.0};
+    double realValue = ArrayExamples.averageWithoutLowest(input4);
+    assertEquals(5.0, realValue, 0.0001);
+  }
+  
+  ```
+  This test, when ran, expects 5.0 to be returned. However, the actual value returned is 3.33333. This is because 6.0 and 4.0 add up to 10.0, and that value is divided by the length - 1, which returns 3.33333. Here is what shows up in VSCode after running the test:
+  
+  ![Image](Screen Shot 2023-01-28 at 7.48.14 PM.png)
+  
+  
+  Here is an input that doesn't produce a failure:
+  
+  ```
+  @Test
+  public void testAvgWithoutLowest2() {
+    double [] input5 = new double [] {1.0, 2.0, 3.0, 4.0};
+    double realValue = ArrayExamples.averageWithoutLowest(input5);
+    assertEquals(3.0, realValue, 0.0001);
+  }
+  
+  ```
+  
