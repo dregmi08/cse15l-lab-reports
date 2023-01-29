@@ -113,20 +113,33 @@ The method (before fixing it) looks like this:
   After fixing the method, it looks like this:
   
  ```
-  static double averageWithoutLowest(double[] arr) {
-    if(arr.length < 2) { return 0.0; }
-    double lowest = arr[0];
-    int lowestCounter = 0;
-    for(double num: arr) {
-      if(num < lowest) { lowest = num; lowestCounter++;}
+    static double averageWithoutLowest(double[] arr) {
+      if(arr.length < 2) { return 0.0; }
+      double lowest = arr[0];
+      int lowestCounter = 0;
+      for(double num: arr) {
+        if(num < lowest) { lowest = num;}
+      }
+      double sum = 0;
+      for(double num: arr) {
+        if(num != lowest) { sum += num; }
+        else {lowestCounter++;}
+      }
+      return sum / (arr.length - lowestCounter);
     }
-    double sum = 0;
-    for(double num: arr) {
-      if(num != lowest) { sum += num; }
-    }
-    return sum / (arr.length - lowestCounter);
-  }
+    
  ```
+ 
+ Here is the output after fixing the code and running JUnit:
+ 
+ ![Image](Screen Shot 2023-01-28 at 8.45.32 PM.png)
+ 
+ In the fixed code, I added a counter called `lowestCounter` and initialized it to zero. After the first loop finds the lowest value, the second loop will count how many times that value appears and will update the counter by one for each occurance. Then, the return statement evaluates the quotient of the sum calculated in the second loop and the difference of the counter and the length of the array (this calculates the number of values that aren't equal to the lowest).
+ 
+__Part 3__ : 
+---
+In week 2, I learned how to make a server, which is something that I had no prior knowledge on. I also got to read up a little on what queries are and
+what each of the methods/interfaces involved in making a server do. I also learned that you could run a server on your own computer, and that anyone can update values on a shared port, not just the person that created the server.
  
 
   
