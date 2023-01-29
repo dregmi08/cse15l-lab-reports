@@ -1,4 +1,4 @@
-__Part 1__ : Looking up your CSE 15L account 
+__Part 1__ : 
 ---
 
 This is an image of my `StringServer.java` file
