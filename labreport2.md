@@ -3,8 +3,9 @@ __Part 1__ : Looking up your CSE 15L account
 
 This is an image of my `StringServer.java` file
 ![Image](Screen Shot 2023-01-28 at 6.19.25 PM.png)
-```
+
 Here is the code written out in a code block:
+```
 import java.io.IOException;
 import java.net.URI;
 
