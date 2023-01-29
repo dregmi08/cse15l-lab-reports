@@ -66,7 +66,7 @@ Here is an example of a failure inducing input for the current code:
   }
   
   ```
-  This test, when ran, expects 5.0 to be returned. However, the actual value returned is 3.33333. This is because 6.0 and 4.0 add up to 10.0, and that value is divided by the length - 1, which returns 3.33333. Here is what shows up in VSCode after running the test:
+  This test, when ran, expects 5.0 to be returned. However, the actual value returned is 3.33333. This is because 6.0 and 4.0 add up to 10.0, and that value is divided by the length minus one, which returns 3.33333. Here is what shows up in VSCode after running the test:
   
   
   
