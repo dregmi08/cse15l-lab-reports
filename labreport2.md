@@ -82,6 +82,17 @@ Here is an example of a failure inducing input for the current code:
   
   ```
   
+  
+ 
+The issue with this particular program is that if you have multiple occurances of the lowest number, you have to divide the sum by the array length minus the number of times `lowest` appears in the array. Here are what the symptoms look like for the first test:
+
+ ![Image](Screen Shot 2023-01-28 at 7.48.14 PM.png)
+ 
+ 
+![Image](Screen Shot 2023-01-28 at 8.34.39 PM.png)
+ 
+The second input doesn't produce an incorrect output, so there is no failure message in the terminal for this second test. The only error in the terminal is from the first input.
+
 The method (before fixing it) looks like this:
 
 ```
@@ -97,17 +108,25 @@ The method (before fixing it) looks like this:
     }
     return sum / (arr.length - 1);
   }
+ ``` 
   
-  ```
-The issue with this particular program is that if you have multiple occurances of the lowest number, you have to divide the sum by the array length minus the number of times `lowest` appears in the array. Here are what the symptoms look like for the first test:
-
- ![Image](Screen Shot 2023-01-28 at 7.48.14 PM.png)
- 
- 
-![Image](Screen Shot 2023-01-28 at 8.34.39 PM.png)
- 
-The second input doesn't produce an incorrect output, so there is no failure message in the terminal for this second test. The only error in the terminal is from the first input.
- 
+  After fixing the method, it looks like this:
+  
+ ```
+  static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    int lowestCounter = 0;
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; lowestCounter++;}
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - lowestCounter);
+  }
+ ```
  
 
   
