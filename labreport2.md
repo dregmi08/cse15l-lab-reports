@@ -42,4 +42,6 @@ Here are two examples of `/add-message` being used:
 
 ![Image](Screen Shot 2023-01-28 at 6.28.43 PM.png)
 
+In this screenshot, the method that is called is `handleRequest(URI url)`. Within this user defined method, other methods such as `.getPath()`, `.equals()`, `.split()`, and `.getQuery()`. The relevant arguments of these methods include the actual URI in `.handleRequest()` , the `"/add-message"` 
+inside `.equals()` and the equals sign in `.split()`.
 ![Image](Screen Shot 2023-01-28 at 6.31.43 PM.png)
