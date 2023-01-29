@@ -46,4 +46,9 @@ In this screenshot, the method that is called is `handleRequest(URI url)`. Withi
 inside `.equals()` and the equals sign in `.split()`. The relevant fields in this case would be the value of `webpage`, which is initialized to `""`, and this changes to "Hello, how are you?" after the request is made.
 
 ![Image](Screen Shot 2023-01-28 at 6.31.43 PM.png)
+
 In this screenshot, the same methods are called as in the aforementioned request. The only difference is in the relevant field, which changes from "Hello, how are you?" to "Hello, how are you" and "I'm doing great! How about yourself?" on the new line.
+
+
+__Part 2__ : 
+---
