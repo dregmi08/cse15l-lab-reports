@@ -1091,5 +1091,5 @@ grep -v "Italy" travel_guides/berlitz1/WhereToItaly.txt
         ```
         
 
-
+In the first example of the inverse search command, I typed `grep -v "Lucayans" travel_guides/berlitz2/Bahamas-History.txt` into the command line. In our skills demo, one of our tasks was to return the name of the file with the word "Lucayans" in it. What I did here is I searched for every line in this file that ***didn't*** contain the word "Lucayans". As you can see, there is absolutely no mention of that specific word in the terminal output.
 
