@@ -1099,8 +1099,10 @@ terminal output, showing that this command is an inverse search command. In the 
 travel_guides/berlitz1/WhereToItaly.txt` into the terminal. Every line that didn't contain the word Italy was printed out in the terminal. This command
 is quite helpful because if you need to find a specific set of information, you can start by excluding the irrelevant information that you know you 
 don't need. For example, if you wanted to find information about the countries you haven't visited yet, you could switch into the written_2 directory,
-use `grep -v` ***country name*** and find information about every other country.
+use `grep -v "country_name" ` and find information about every other country. The source of where I found this command can be found [here](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
 ---
+
+__Second use:__ `grep -x` or ***Searching for ***
 
 
