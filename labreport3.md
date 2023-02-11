@@ -54,6 +54,7 @@ One of the major questions still facing the Bahamas is how to accommodate the in
 In this second example, I used the command `grep -v "Italy" travel_guides/berlitz1/WhereToItaly.txt`
 
 Here is the output:
+
 ```
 grep -v "Italy" travel_guides/berlitz1/WhereToItaly.txt
 
@@ -1088,7 +1089,7 @@ grep -v "Italy" travel_guides/berlitz1/WhereToItaly.txt
         cool and windy up there, even in the summer. From October to May, the
         summit is covered in snow and often closed to the public.
         
-       ```
+```
         
 
 In the first example of the inverse search command, I typed `grep -v "Lucayans" travel_guides/berlitz2/Bahamas-History.txt` into the command line. 
