@@ -49,7 +49,7 @@ In the 1990s the Bahamian Government began working on ways to expand the country
 One of the major questions still facing the Bahamas is how to accommodate the increasing numbers of tourists while still preserving the special architectural and social heritage of the Out Islands, as well as of the major towns like Nassau. Will it be possible to enjoy the natural splendors of places like Inagua without upsetting the delicate balance of nature? At the moment, the thinking is that it’s perhaps best to leave these smaller, less developed islands in peace.
 
 ```
-
+---
 
 In this second example, I used the command `grep -v "Italy" travel_guides/berlitz1/WhereToItaly.txt`
 
@@ -1239,7 +1239,7 @@ travel_guides/berlitz2/Vallarta-WhereToGo.txt:Roqueta Island sits half a mile ac
 travel_guides/berlitz2/Vallarta-WhereToGo.txt:It’s biggest draw are the 36 beaches spread across the 35 km (22 miles) of coastline and nine bays, most of them still undeveloped. The fact that the area has been slow to catch on has resulted in a curious mix of ultra-modern infrastructure, and unspoiled natural areas. Huatulco has what it takes to attract visitors — including golf, tennis, water sports, fishing, a few restaurants and night spots, luxury accommodations, and direct flights from selected US cities — but hasn’t developed its own distinct personality yet. For now, Huatulco is ideal for those who want to enjoy the beauty of nature during the day, then retreat to the well-appointed comfort of a luxury hotel by night.
 
 ```
-
+---
 Another way in which I used this string search command is with the command `grep " tropical" */*/*.txt */*/*/*.txt`
 
 Here is the output for this command:
@@ -1619,8 +1619,11 @@ grep -c "volcano" */*/*.txt */*/*/*.txt
         non-fiction/OUP/Rybczynski/ch3.txt:0
 
 ```
+---
 
 The second command that I inputted using `grep -c` is `grep -c "museums" */*/*.txt */*/*/*.txt`
+
+Here is the output
 
 ```
 grep -c "museums"  */*/*/*.txt */*/*.txt
@@ -1862,3 +1865,4 @@ key words to see which text files may cover that area. I found this command at [
 
 ---
 
+__
