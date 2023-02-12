@@ -1865,4 +1865,34 @@ key words to see which text files may cover that area. I found this command at [
 
 ---
 
-__
+__Fourth Use___ `grep -r` __or recursive searching__
+
+For my first example of recursive searching, I used the command `grep -r "Phidias" *`
+
+The output can be seen here:
+
+```
+        grep -r "Phidias" *
+        
+        travel_guides/berlitz1/WhereToItaly.txt:        in fame among Greek sculptors only to Phidias. The Emperors’ Gallery
+        
+```
+---
+For my second example example of recursive searching, I used the command `grep -r "Fiji" *`
+
+The output can be seen here:
+
+```
+        grep -r "Fiji" *
+        travel_guides/berlitz1/WhereToLosAngeles.txt:        fishing trips can be arranged. Fisherman’s Village on Fiji Way attracts
+       
+ ```
+ 
+ The function of the `grep -r` command is similar to that of the second command that I tried (the normal grep search command) except it 
+ recursively searches through the current directory ***and*** it's subdirectories, which is similar to how the `find` command works.
+ Instead of having to type out `*/*/*/*.txt` & `*/*/*.txt`, I can simple just put an asterisk to search every file in every subdirectory of 
+ `written_2`. The benefits of this command are similar to that of the normal search, if you can't remember the name of a file but can remember a specific 
+ string contained in that file, you can search for it along with having the added benefit of checking all subdirectories and files with just an asterisk.
+ For my first example, I searched all of the files in `written_2` for the word "Phidias". The terminal outputted the specific file 
+ along with the exact sentence in which you could find the word. For my second example, I searched all of `written_2` for the word "Fiji", which returned
+ one file and the line in which "Fiji" can be found. My source from which I found this command can be [seen here](https://linuxhint.com/use-grep-recursively/)
