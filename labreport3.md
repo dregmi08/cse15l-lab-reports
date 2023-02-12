@@ -1370,3 +1370,14 @@ travel_guides/berlitz2/Vallarta-WhereToGo.txt:The beaches to the north and south
 travel_guides/berlitz2/Vallarta-WhereToGo.txt:The 50-square mile national park, Lagunas de Chacahua is located 66 km (41 miles) to the north of Puerto Escondido. It is comprised of 32 km (20 miles) of fine, sandy beaches, backed by a pair of lagoons and jungle mangroves teeming with a changing array of tropical and migratory birds. Though crocodiles were hunted out in the 1970s, a crocodile hatchery in the village of Chacahua, located on the western edge of the lagoon, is steadily bringing them back.
 
 ```
+
+The function of this command is to return the files that contain the specified string along with the exact line that the string can be found in.
+In the output, you can also see the file name printed alonside a larger excerpt that contains the string. In the first example, I used the command
+`grep " nature" */*/*.txt` to print the names of files with the word "nature" in them that are located within `travel_guides`. As seen in the output,
+the file names, lines, and paragraphs with the word "nature" in them were all printed in the terminal. In the command, I specifically added a space 
+before the word " nature" because inputting "nature" can return lines that contain words with "nature" in them, such as "signature", so it's important 
+to be careful when matching individual words. For the second command, I searched for the word "tropical" in all the files in `written_2` using the 
+command `grep " tropical" */*/*.txt */*/*/*.txt`. All text files within `written_2` with "tropical" in them, along with the specific line and paragraph 
+were also printed. My source for where I found this command can be found [here](https://docs.oracle.com/cd/E19253-01/806-7612/filesearch-99633/index.html#:~:text=The%20grep%20command%20can%20search,the%20line%20matching%20the%20pattern.)
+
+---
