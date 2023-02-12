@@ -1850,3 +1850,15 @@ grep -c "museums"  */*/*/*.txt */*/*.txt
         travel_guides/berlitz2/Vallarta-WhatToDo.txt:0
         travel_guides/berlitz2/Vallarta-WhereToGo.txt:1
 ```
+
+The function of the `grep -c` command is to print the number of times a certain word appears in a file. In my terminal outputs, the name of the file
+is displayed along with the number of times the inputted word appears. In the first example, I used the command `grep -c "volcano" */*/*.txt */*/*/*.txt`
+to see how many times the word "volcano" appears in every text file in written_2. As seen in the output, most files don't contain "volcano" since most
+of the file names have a zero next to them. However, there are certain instances, namely in text files about Japan and Hawaii, in which that is not the
+case. For my second example, I used the command `grep -c "museum" */*/*.txt */*/*/*.txt` to search for the number of times "museum" appears in all of the 
+text fies in written_2. For the most part, the `WhereToGo` files are the ones that contain the word "museum", and this can be seen in the code block 
+above. This command is particularly useful because if you want to find files whose contents pertain to a certain topic/idea, you can input certain
+key words to see which text files may cover that area. I found this command at [this source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+
+---
+
