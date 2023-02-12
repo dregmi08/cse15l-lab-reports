@@ -1378,6 +1378,9 @@ the file names, lines, and paragraphs with the word "nature" in them were all pr
 before the word " nature" because inputting "nature" can return lines that contain words with "nature" in them, such as "signature", so it's important 
 to be careful when matching individual words. For the second command, I searched for the word "tropical" in all the files in `written_2` using the 
 command `grep " tropical" */*/*.txt */*/*/*.txt`. All text files within `written_2` with "tropical" in them, along with the specific line and paragraph 
-were also printed. My source for where I found this command can be found [here](https://docs.oracle.com/cd/E19253-01/806-7612/filesearch-99633/index.html#:~:text=The%20grep%20command%20can%20search,the%20line%20matching%20the%20pattern.)
+were also printed. This command is particularly useful if you can't remember the name of a file but can remember a specific string contained in that 
+file, you can easily search for it using this command. My source for where I found this command can be found 
+[here](https://docs.oracle.com/cd/E19253-01/806-7612/filesearch-
+99633/index.html#:~:text=The%20grep%20command%20can%20search,the%20line%20matching%20the%20pattern.)
 
 ---
