@@ -2,7 +2,8 @@ __Lab Report 3__
 ---
 
 The following lab report will focus on the different uses of the `grep` command
-__Some of the terminal output is ommitted because of how long it is___
+
+***Some of the terminal output is ommitted because of how long it is***
 
 __First use:__ `grep -v` or ***"Inverse search"***
 
@@ -40,6 +41,7 @@ Desperate for work, perhaps 20 percent of the Bahamian population left to take c
 
 ```
 ***Some output not shown***
+
 ---
 
 In this second example, I used the command `grep -v "Italy" travel_guides/berlitz1/WhereToItaly.txt`
@@ -229,6 +231,8 @@ travel_guides/berlitz2/Canada-WhereToGo.txt:The full natural beauty of the Laure
 
 ```
 ***Significant amount of output ommitted***
+
+
 ---
 Another way in which I used this string search command is with the command `grep " tropical" */*/*.txt */*/*/*.txt`
 
@@ -296,6 +300,7 @@ travel_guides/berlitz2/Boston-WhereToGo.txt:On Central Wharf, the New England Aq
 
 
 ```
+***Significant amount of output ommitted***
 
 The function of this command is to return the files that contain the specified string along with the exact line that the string can be found in.
 In the output, you can also see the file name printed alonside a larger excerpt that contains the string. In the first example, I used the command
@@ -308,7 +313,7 @@ were also printed. This command is particularly useful if you can't remember the
 file, you can easily search for it using this command. My source for where I found this command can be found 
 [here](https://docs.oracle.com/cd/E19253-01/806-7612/filesearch-99633/index.html#:~:text=The%20grep%20command%20can%20search,the%20line%20matching%20the%20pattern.)
 
-***Significant amount of output ommitted***
+
 ---
 
 __Third Use:__ `grep -c` __or counting the number of string matches__
@@ -347,6 +352,7 @@ grep -c "volcano" */*/*.txt */*/*/*.txt
 
 ```
 ***Significant output ommitted***
+
 ---
 
 The second command that I inputted using `grep -c` is `grep -c "museums" */*/*.txt */*/*/*.txt`
