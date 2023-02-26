@@ -23,3 +23,13 @@ Keys Pressed initially: *<up><up><up><up><up><up><up><up><up><enter>*
     -Searching for rm -rf: *<up><up><up><up><up><up><up><up><up><up><up><enter>*
     -Searching for `git clone` a second time : *<up><up><enter>*
 
+Step 6:
+  Compiling and Running the files
+  
+  To access the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command, I had to press the `up` key eleven times. To access the 
+  `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command, I also had to go eleven up. 
+  
+  Searching for the compile and run commands: *<up><up><up><up><up><up><up><up><up><up><up><enter>*
+  
+  
+  
