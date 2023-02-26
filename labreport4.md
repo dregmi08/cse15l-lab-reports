@@ -1,7 +1,7 @@
 __Lab Report 4__
-
-This page contains information pertaining to running Steps 4-9 in Lab 7 while optimizing time.
 ---
+This page contains information pertaining to running Steps 4-9 in Lab 7 while optimizing time.
+
 
 Step 4:
 
@@ -65,3 +65,4 @@ Step 6:
   Keys pressed to compile and run: *<up><up><enter>*
   
   ---
+  Step 9:
