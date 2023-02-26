@@ -1,4 +1,4 @@
-__Lab Report 4__
+Lab Report 4
 ---
 This page contains information pertaining to running Steps 4-9 in Lab 7 while optimizing time.
 
