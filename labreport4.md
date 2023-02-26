@@ -69,3 +69,10 @@ Step 8: Running the Tests to show they succeed
  
 Step 9:
 ---
+
+To access all these commands, I pressed the `up` key eleven times.
+
+Keys pressed : `<up><up><up><up><up><up><up><up><up><up><up><enter>`
+
+
+
