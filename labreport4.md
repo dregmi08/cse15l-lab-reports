@@ -10,6 +10,8 @@ Step 4: Logging into `ieng6`
 
 For this step, I just typed out my username using `ssh`. Even though I typed out this command fully, I did not have to type out my password to log in, since I created a public `ssh` key for my account during lab. By doing this, I saved time that I would normally spend typing in my password.
 
+
+
 Step 5: Cloning my fork of the repository.
 ---
 
@@ -24,6 +26,8 @@ Keys Pressed initially: <up><up><up><up><up><up><up><up><up><enter>
   Keys Pressed second time:
     -Searching for rm -rf: <up><up><up><up><up><up><up><up><up><up><up><enter>
     -Searching for `git clone` a second time : <up><up><enter>
+  
+  
   
 Step 6: Compiling and Running the files
 ---
