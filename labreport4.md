@@ -74,5 +74,8 @@ To access all these commands, I pressed the `up` key eleven times.
 
 Keys pressed : `<up><up><up><up><up><up><up><up><up><up><up><enter>`
 
+This is an image displaying the result of the commit and push:
+
+![Image](Screen Shot 2023-02-25 at 7.46.05 PM.png)
 
 
