@@ -44,6 +44,23 @@ Example #1:
 
 ![Image](Screen Shot 2023-03-12 at 11.51.22 PM.png)
 
+Here is the command and its output in a code block:
+```
+dronregmi@Drons-MacBook-Air written_2 % find . -type d          
+.
+./non-fiction
+./non-fiction/OUP
+./non-fiction/OUP/Berk
+./non-fiction/OUP/Abernathy
+./non-fiction/OUP/Rybczynski
+./non-fiction/OUP/Kauffman
+./non-fiction/OUP/Fletcher
+./non-fiction/OUP/Castro
+./travel_guides
+./travel_guides/berlitz1
+./travel_guides/berlitz2
+```
+
 Example #2:
 
 ![Image](Screen Shot 2023-03-12 at 11.54.34 PM.png)
