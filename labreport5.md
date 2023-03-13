@@ -107,6 +107,15 @@ Example #1 :
 
 ![Image](Screen Shot 2023-03-13 at 12.00.41 AM.png)
 
+Here is the command and its output in a code block:
+
+```
+dronregmi@Drons-MacBook-Air docsearch % cd written_2 
+dronregmi@Drons-MacBook-Air written_2 % find . -type f -empty   
+./foundfile.txt
+./founfile.txt
+```
+
 Example #2 :
 
 ![Image](Screen Shot 2023-03-13 at 12.04.28 AM.png)
