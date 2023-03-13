@@ -168,6 +168,13 @@ dronregmi@Drons-MacBook-Air non-fiction % cd OUP
 dronregmi@Drons-MacBook-Air OUP % find . -size +1M
 ```
 
+The purpose of this command is to find all files that are greater than a specific inputted size. This `find` command is useful if you want to find the 
+files that take up a lot of storage and delete them if you don't need them anymore. In my first example, I called `find . -size +2M` from the 
+`travel_guides` directory, and not a single file way listed, meaning that no files in that directory exceed the size of 1 megabyte. For my second example,
+I switched into the `OUP` directory with a few commands and I used the command `find . -size +1M`. Again, not files appeared to be listed, meaning that no 
+individual file is greater than one megabyte.
+
+
 __Fifth Use:__ `find . -type f` or finding non-directory files
 
 ![Image](Screen Shot 2023-03-13 at 1.30.00 AM.png)
