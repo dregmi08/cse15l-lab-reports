@@ -29,6 +29,14 @@ Example #2 :
 
 ![Image](Screen Shot 2023-03-12 at 11.45.26 PM.png)
 
+This is what the commands are in a code :
+
+```
+dronregmi@Drons-MacBook-Air CSE12 % cd docsearch            
+dronregmi@Drons-MacBook-Air docsearch % cd written_2 
+dronregmi@Drons-MacBook-Air written_2 % find . -iname "Cas*"
+./non-fiction/OUP/Castro
+```
 
 __Second Use:__ `find -type d` or listing directories
 
