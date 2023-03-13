@@ -12,7 +12,7 @@ Example #1:
 
 ![Image](Screen Shot 2023-03-12 at 11.41.44 PM.png)
 
-This is what the commands are in a code block :
+Here is the command and its output in a code block:
 
 ```
 dronregmi@Drons-MacBook-Air CSE12 % cd docsearch            
@@ -29,8 +29,7 @@ Example #2 :
 
 ![Image](Screen Shot 2023-03-12 at 11.45.26 PM.png)
 
-This is what the commands are in a code :
-
+Here is the command and its output in a code block:
 ```
 dronregmi@Drons-MacBook-Air CSE12 % cd docsearch            
 dronregmi@Drons-MacBook-Air docsearch % cd written_2 
