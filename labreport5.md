@@ -127,9 +127,76 @@ dronregmi@Drons-MacBook-Air written_2 % cd travel_guides
 dronregmi@Drons-MacBook-Air travel_guides % find . -type f -empty
 ```
 
-__Fourth Use:__ `
+__Fourth Use:__ `find -size +_M` or finding files larger than _ amount of megabytes
+
+Example #1:
+
+![Image](Screen Shot 2023-03-13 at 12.56.21 AM.png)
 
 
+```
+dronregmi@Drons-MacBook-Air travel_guides % find . -size +2M 
+dronregmi@Drons-MacBook-Air travel_guides % 
+```
 
+Example #2:
 
+![Image](Screen Shot 2023-03-13 at 1.05.06 AM.png)
 
+```
+dronregmi@Drons-MacBook-Air travel_guides % cd ..
+dronregmi@Drons-MacBook-Air written_2 % cd non-fiction 
+dronregmi@Drons-MacBook-Air non-fiction % cd OUP 
+dronregmi@Drons-MacBook-Air OUP % find . -size +1M
+```
+
+__Fifth Use:__ `find . -type f` or finding non-directory files
+
+![Image](Screen Shot 2023-03-13 at 1.30.00 AM.png)
+
+Example #1 : 
+
+```
+dronregmi@Drons-MacBook-Air written_2 % find . -type f
+./non-fiction/OUP/Berk/ch2.txt
+./non-fiction/OUP/Berk/ch1.txt
+./non-fiction/OUP/Berk/CH4.txt
+./non-fiction/OUP/Berk/ch7.txt
+./non-fiction/OUP/Abernathy/ch2.txt
+./non-fiction/OUP/Abernathy/ch3.txt
+./non-fiction/OUP/Abernathy/ch1.txt
+./non-fiction/OUP/Abernathy/ch7.txt
+./non-fiction/OUP/Abernathy/ch6.txt
+./non-fiction/OUP/Abernathy/ch8.txt
+./non-fiction/OUP/Abernathy/ch9.txt
+./non-fiction/OUP/Abernathy/ch15.txt
+./non-fiction/OUP/Abernathy/ch14.txt
+./non-fiction/OUP/Rybczynski/ch2.txt
+./non-fiction/OUP/Rybczynski/ch3.txt
+./non-fiction/OUP/Rybczynski/ch1.txt
+./non-fiction/OUP/Kauffman/ch3.txt
+./non-fiction/OUP/Kauffman/ch1.txt
+./non-fiction/OUP/Kauffman/ch4.txt
+./non-fiction/OUP/Kauffman/ch5.txt
+./non-fiction/OUP/Kauffman/ch7.txt
+./non-fiction/OUP/Kauffman/ch6.txt
+./non-fiction/OUP/Kauffman/ch8.txt
+./non-fiction/OUP/Kauffman/ch9.txt
+./non-fiction/OUP/Kauffman/ch10.txt
+./non-fiction/OUP/Fletcher/ch2.txt
+./non-fiction/OUP/Fletcher/ch1.txt
+./non-fiction/OUP/Fletcher/ch5.txt
+./non-fiction/OUP/Fletcher/ch6.txt
+./non-fiction/OUP/Fletcher/ch9.txt
+./non-fiction/OUP/Fletcher/ch10.txt
+./non-fiction/OUP/Castro/chR.txt
+./non-fiction/OUP/Castro/chP.txt
+./non-fiction/OUP/Castro/chQ.txt
+./non-fiction/OUP/Castro/chB.txt
+./non-fiction/OUP/Castro/chC.txt
+./non-fiction/OUP/Castro/chA.txt
+./non-fiction/OUP/Castro/chV.txt
+
+```
+
+Example #2:
