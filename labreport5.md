@@ -18,7 +18,7 @@ Here is the command and its output in a code block:
 dronregmi@Drons-MacBook-Air CSE12 % cd docsearch            
 dronregmi@Drons-MacBook-Air docsearch % cd written_2            
 dronregmi@Drons-MacBook-Air written_2 % cd travel_guides        
-dronregmi@Drons-MacBook-Air travel_guides % find .  -iname "Amster*"
+dronregmi@Drons-MacBook-Air travel_guides % find .  -iname "amster*"
 ./berlitz2/Amsterdam-WhereToGo.txt
 ./berlitz2/Amsterdam-WhatToDo.txt
 ./berlitz2/Amsterdam-History.txt
@@ -33,9 +33,16 @@ Here is the command and its output in a code block:
 ```
 dronregmi@Drons-MacBook-Air CSE12 % cd docsearch            
 dronregmi@Drons-MacBook-Air docsearch % cd written_2 
-dronregmi@Drons-MacBook-Air written_2 % find . -iname "Cas*"
+dronregmi@Drons-MacBook-Air written_2 % find . -iname "cas*"
 ./non-fiction/OUP/Castro
 ```
+
+The purpose of this command is to find specific files/directories without you (the user) having to remember the exact filename. This find command is
+also case insensitive, meaning that you can not only find files/directories without knowing the whole filename (you can use the asterisk to find
+files that contain that specific string) but you don't have to remember if the file name contains a capital letter. This is very useful if you can only 
+remember part of a filename. I cloned the same repository containing the files/directories we used in lab 3, and I switched into docsearch, written_2, and 
+then travel_guides for my first example. I then types find .  -iname "amster*" and got the respective directory. For my second example, I used the command 
+find . -iname "cas*" and got the respective file. 
 
 __Second Use:__ `find -type d` or listing directories
 
