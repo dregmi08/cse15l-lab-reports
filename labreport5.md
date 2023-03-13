@@ -6,4 +6,25 @@ For this report, I am going to explore 5 ways in which you can use the `find` co
 
 ***Some of the terminal output is ommitted because of how long it is***
 
-__First use:__ 
+__First use:__  `find -iname` or searching by approximate name
+
+Example #1:
+
+![Image](Screen Shot 2023-03-12 at 11.41.44 PM.png)
+
+Example #2 :
+
+![Image](Screen Shot 2023-03-12 at 11.45.26 PM.png)
+
+
+__Second Use:__ `find -type d` or listing directories
+
+Example #1:
+
+![Image](Screen Shot 2023-03-12 at 11.51.22 PM.png)
+
+Example #2:
+
+
+
+
