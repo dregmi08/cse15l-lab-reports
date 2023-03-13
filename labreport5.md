@@ -158,6 +158,8 @@ Example #1:
 ![Image](Screen Shot 2023-03-13 at 12.56.21 AM.png)
 
 
+Here is the command and its output in a code block:
+
 ```
 dronregmi@Drons-MacBook-Air travel_guides % find . -size +2M 
 dronregmi@Drons-MacBook-Air travel_guides % 
@@ -166,6 +168,9 @@ dronregmi@Drons-MacBook-Air travel_guides %
 Example #2:
 
 ![Image](Screen Shot 2023-03-13 at 1.05.06 AM.png)
+
+
+Here is the command and its output in a code block:
 
 ```
 dronregmi@Drons-MacBook-Air travel_guides % cd ..
@@ -189,6 +194,9 @@ __Fifth Use:__ `find . -type f` or finding non-directory files
 Example #1 : 
 
 ![Image](Screen Shot 2023-03-13 at 1.30.00 AM.png)
+
+
+Here is the command and its output in a code block:
 
 ```
 dronregmi@Drons-MacBook-Air written_2 % find . -type f
@@ -238,6 +246,9 @@ dronregmi@Drons-MacBook-Air written_2 % find . -type f
 Example #2:
 
 ![Image](Screen Shot 2023-03-13 at 1.39.09 AM.png)
+
+
+Here is the command and its output in a code block:
 
 ```
 dronregmi@Drons-MacBook-Air written_2 % cd travel_guides
