@@ -44,6 +44,8 @@ remember part of a filename but can't remember the exact name. I cloned the same
 switched into docsearch, written_2, and then travel_guides for my first example. I then types find .  -iname "amster*" and got the respective directory. 
 For my second example, I used the command find . -iname "cas*" and got the respective file. 
 
+---
+
 __Second Use:__ `find -type d` or listing directories
 
 Example #1:
@@ -113,6 +115,8 @@ call this command, as "." is also listed. This find command is useful if you don
 the names of the directories themselves, you can have them listed for you. For my first example, I called `find . -type d` from the `written_2` directory, and the respective output was all the directories and subdirectories of `written_2`. For my second example, I called `cd ..` to go into the `docsearch` 
 directory and called the same command. This time, I was given more dirctories, since `docsearch` contains more directories than just `written_2`.
 
+---
+
 __Third Use:__ `find . -type f -empty` or finding all empty files in the current directory and its subdirectories
 
 Example #1 :
@@ -145,6 +149,8 @@ find every single empty file within the directories and delete them, therefore c
 demonstration. I named these files `foundfile.txt` and `founfile.txt`, and when calling find . -type f -empty  , these files were listed. For my second 
 example, I started from the `travel_guides` directory and used the command. Since this file does not contain any files that are empty, nothing was listed.
 
+---
+
 __Fourth Use:__ `find -size +_M` or finding files larger than _ amount of megabytes
 
 Example #1:
@@ -174,6 +180,7 @@ files that take up a lot of storage and delete them if you don't need them anymo
 I switched into the `OUP` directory with a few commands and I used the command `find . -size +1M`. Again, not files appeared to be listed, meaning that no 
 individual file is greater than one megabyte.
 
+---
 
 __Fifth Use:__ `find . -type f` or finding non-directory files
 
@@ -226,6 +233,8 @@ dronregmi@Drons-MacBook-Air written_2 % find . -type f
 
 ```
 
+***Some of the terminal output is ommitted because of how long it is***
+
 Example #2:
 
 ![Image](Screen Shot 2023-03-13 at 1.39.09 AM.png)
@@ -268,6 +277,7 @@ dronregmi@Drons-MacBook-Air travel_guides % find . -type f
 ./berlitz1/HistoryIstanbul.txt
 ./berlitz1/WhereToItaly.txt
 ```
+***Some of the terminal output is ommitted because of how long it is***
 
 The purpose of this command is to find all files in a given directory that are not subdirectories. The `find`command works by recursively finding every 
 single file, directory, and subdirectory in your current directory. If you wanted to find files, you would have to take a few steps, using commands such 
@@ -277,6 +287,8 @@ directories were not listed, the only appearance of these words is in the path t
 I used some commands to change into the `travel_guides` directory and used the `find . -type f` command. Again, none of the subdirectories were listed 
 themselves, but only appeared in the paths to the text files. Source: I used ChatGPT to list some examples of `find` commands, you can find my request 
 [here](https://chat.openai.com/chat). 
+
+--- 
 
 __Conclusion__ : Learning about terminal commands and finding different ways in which you can use them can save you a lot of time in the future by 
 providing you with usefuland practical ways in which you want to accomplish certain things. Instead of searching for every directory for a file, you
