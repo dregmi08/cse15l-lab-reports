@@ -40,9 +40,9 @@ dronregmi@Drons-MacBook-Air written_2 % find . -iname "cas*"
 The purpose of this command is to find specific files/directories without you (the user) having to remember the exact filename. This find command is
 also case insensitive, meaning that you can not only find files/directories without knowing the whole filename (you can use the asterisk to find
 files that contain that specific string) but you don't have to remember if the file name contains a capital letter. This is very useful if you can only 
-remember part of a filename. I cloned the same repository containing the files/directories we used in lab 3, and I switched into docsearch, written_2, and 
-then travel_guides for my first example. I then types find .  -iname "amster*" and got the respective directory. For my second example, I used the command 
-find . -iname "cas*" and got the respective file. 
+remember part of a filename but can't remember the exact name. I cloned the same repository containing the files/directories we used in lab 3, and I 
+switched into docsearch, written_2, and then travel_guides for my first example. I then types find .  -iname "amster*" and got the respective directory. 
+For my second example, I used the command find . -iname "cas*" and got the respective file. 
 
 __Second Use:__ `find -type d` or listing directories
 
@@ -108,6 +108,11 @@ dronregmi@Drons-MacBook-Air docsearch % find . -type d
 ./written_2/travel_guides/berlitz2
 ```
 
+The purpose of this command is to find every directory in the current directory and its subdirectories. This includes the directory you are in when you 
+call this command, as "." is also listed. This find command is useful if you don't want to find every single file within the directories. If you just want 
+the names of the directories themselves, you can have them listed for you. For my first example, I called `find . -type d` from the `written_2` directory, and the respective output was all the directories and subdirectories of `written_2`. For my second example, I called `cd ..` to go into the `docsearch` 
+directory and called the same command. This time, I was given more dirctories, since `docsearch` contains more directories than just `written_2`.
+
 __Third Use:__ `find . -type f -empty` or finding all empty files in the current directory and its subdirectories
 
 Example #1 :
@@ -133,6 +138,12 @@ Here is the command and its output in a code block:
 dronregmi@Drons-MacBook-Air written_2 % cd travel_guides 
 dronregmi@Drons-MacBook-Air travel_guides % find . -type f -empty
 ```
+
+The purpose of this command is to find all empty files in the current directory and its subdirectories. This `find` command is useful if you don't want to 
+find every single empty file within the directories and delete them, therefore clearing up any clutter in your workspace. In my first example, I called 
+`find . -type f -empty` from the `written_2` directory . I had previously created two empty files within this directory, just for the purposes of this
+demonstration. I named these files `foundfile.txt` and `founfile.txt`, and when calling find . -type f -empty  , these files were listed. For my second 
+example, I started from the `travel_guides` directory and used the command. Since this file does not contain any files that are empty, nothing was listed.
 
 __Fourth Use:__ `find -size +_M` or finding files larger than _ amount of megabytes
 
