@@ -10,7 +10,7 @@ __First use:__  `find -iname` or searching by approximate name
 
 Example #1:
 
-![Image](Screen Shot 2023-03-12 at 11.41.44 PM.png)
+![Image](Screen Shot 2023-03-13 at 3.16.16 AM.png)
 
 Here is the command and its output in a code block:
 
@@ -27,7 +27,7 @@ dronregmi@Drons-MacBook-Air travel_guides % find .  -iname "amster*"
 
 Example #2 :
 
-![Image](Screen Shot 2023-03-12 at 11.45.26 PM.png)
+![Image](Screen Shot 2023-03-13 at 3.17.51 AM.png)
 
 Here is the command and its output in a code block:
 ```
