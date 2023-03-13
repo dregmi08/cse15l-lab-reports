@@ -64,6 +64,42 @@ Example #2:
 
 ![Image](Screen Shot 2023-03-12 at 11.54.34 PM.png)
 
+Here is the command and its output in a code block:
+
+```
+dronregmi@Drons-MacBook-Air written_2 % cd ..               
+dronregmi@Drons-MacBook-Air docsearch % find . -type d
+.
+./lib
+./.git
+./.git/objects
+./.git/objects/pack
+./.git/objects/info
+./.git/info
+./.git/logs
+./.git/logs/refs
+./.git/logs/refs/heads
+./.git/logs/refs/remotes
+./.git/logs/refs/remotes/origin
+./.git/hooks
+./.git/refs
+./.git/refs/heads
+./.git/refs/tags
+./.git/refs/remotes
+./.git/refs/remotes/origin
+./written_2
+./written_2/non-fiction
+./written_2/non-fiction/OUP
+./written_2/non-fiction/OUP/Berk
+./written_2/non-fiction/OUP/Abernathy
+./written_2/non-fiction/OUP/Rybczynski
+./written_2/non-fiction/OUP/Kauffman
+./written_2/non-fiction/OUP/Fletcher
+./written_2/non-fiction/OUP/Castro
+./written_2/travel_guides
+./written_2/travel_guides/berlitz1
+./written_2/travel_guides/berlitz2
+```
 
 __Third Use:__ `find . -type f -empty` or finding all empty files in the current directory and its subdirectories
 
