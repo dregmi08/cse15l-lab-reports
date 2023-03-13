@@ -156,6 +156,8 @@ __Fifth Use:__ `find . -type f` or finding non-directory files
 
 Example #1 : 
 
+![Image](Screen Shot 2023-03-13 at 1.30.00 AM.png)
+
 ```
 dronregmi@Drons-MacBook-Air written_2 % find . -type f
 ./non-fiction/OUP/Berk/ch2.txt
@@ -200,3 +202,44 @@ dronregmi@Drons-MacBook-Air written_2 % find . -type f
 ```
 
 Example #2:
+
+![Image](Screen Shot 2023-03-13 at 1.39.09 AM.png)
+
+```
+dronregmi@Drons-MacBook-Air written_2 % cd travel_guides
+dronregmi@Drons-MacBook-Air travel_guides % find . -type f  
+./berlitz1/HandRLasVegas.txt
+./berlitz1/HistoryJapan.txt
+./berlitz1/IntroMalaysia.txt
+./berlitz1/HandRIstanbul.txt
+./berlitz1/HistoryJamaica.txt
+./berlitz1/HandRJamaica.txt
+./berlitz1/HandRHongKong.txt
+./berlitz1/HistoryEgypt.txt
+./berlitz1/IntroEdinburgh.txt
+./berlitz1/HistoryIsrael.txt
+./berlitz1/IntroDublin.txt
+./berlitz1/HistoryIndia.txt
+./berlitz1/IntroFrance.txt
+./berlitz1/IntroMadeira.txt
+./berlitz1/WhatToLakeDistrict.txt
+./berlitz1/IntroIbiza.txt
+./berlitz1/HistoryItaly.txt
+./berlitz1/WhereToGreek.txt
+./berlitz1/WhereToLakeDistrict.txt
+./berlitz1/HistoryDublin.txt
+./berlitz1/IntroIsrael.txt
+./berlitz1/WhatToIbiza.txt
+./berlitz1/HistoryFrance.txt
+./berlitz1/WhatToHawaii.txt
+./berlitz1/HistoryMallorca.txt
+./berlitz1/HistoryJerusalem.txt
+./berlitz1/HandRLisbon.txt
+./berlitz1/WhereToIndia.txt
+./berlitz1/HistoryMadrid.txt
+./berlitz1/HistoryHongKong.txt
+./berlitz1/IntroMadrid.txt
+./berlitz1/IntroLosAngeles.txt
+./berlitz1/HistoryIstanbul.txt
+./berlitz1/WhereToItaly.txt
+```
