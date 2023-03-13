@@ -42,7 +42,8 @@ also case insensitive, meaning that you can not only find files/directories with
 files that contain that specific string) but you don't have to remember if the file name contains a capital letter. This is very useful if you can only 
 remember part of a filename but can't remember the exact name. I cloned the same repository containing the files/directories we used in lab 3, and I 
 switched into `docsearch`, `written_2`, and then `travel_guides` for my first example. I then typed `find .  -iname "amster*"` and got the respective 
-directory. For my second example, I used the command find . -iname "cas*" and got the respective file. 
+directory. For my second example, I used the command find . -iname "cas*" and got the respective file. My source for this command is [here]
+(https://linuxhandbook.com/find-command-examples/) 
 
 ---
 
@@ -150,6 +151,7 @@ find every single empty file within the directories and delete them, therefore c
 `find . -type f -empty` from the `written_2` directory . I had previously created two empty files within this directory, just for the purposes of this
 demonstration. I named these files `foundfile.txt` and `founfile.txt`, and when calling find . -type f -empty  , these files were listed. For my second 
 example, I started from the `travel_guides` directory and used the command. Since this file does not contain any files that are empty, nothing was listed.
+My source for finding this command is [here](https://linuxhandbook.com/find-command-examples/)
 
 ---
 
@@ -185,7 +187,8 @@ The purpose of this command is to find all files that are greater than a specifi
 files that take up a lot of storage and delete them if you don't need them anymore. In my first example, I called `find . -size +2M` from the 
 `travel_guides` directory, and not a single file way listed, meaning that no files in that directory exceed the size of 1 megabyte. For my second example,
 I switched into the `OUP` directory with a few commands and I used the command `find . -size +1M`. Again, not files appeared to be listed, meaning that no 
-individual file is greater than one megabyte.
+individual file is greater than one megabyte. Source: I used ChatGPT to list some examples of `find` commands, you can find my request 
+[here](https://chat.openai.com/chat). 
 
 ---
 
