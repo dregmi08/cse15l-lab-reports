@@ -120,6 +120,13 @@ Example #2 :
 
 ![Image](Screen Shot 2023-03-13 at 12.04.28 AM.png)
 
+Here is the command and its output in a code block:
+
+```
+dronregmi@Drons-MacBook-Air written_2 % cd travel_guides 
+dronregmi@Drons-MacBook-Air travel_guides % find . -type f -empty
+```
+
 __Fourth Use:__ `
 
 
