@@ -25,6 +25,20 @@ Example #1:
 
 Example #2:
 
+![Image](Screen Shot 2023-03-12 at 11.54.34 PM.png)
+
+
+__Third Use:__ `find . -type f -empty` or finding all empty files in the current directory and its subdirectories
+
+Example #1 :
+
+![Image](Screen Shot 2023-03-13 at 12.00.41 AM.png)
+
+Example #2 :
+
+![Image]()
+
+
 
 
 
