@@ -268,3 +268,17 @@ dronregmi@Drons-MacBook-Air travel_guides % find . -type f
 ./berlitz1/HistoryIstanbul.txt
 ./berlitz1/WhereToItaly.txt
 ```
+
+The purpose of this command is to find all files in a given directory that are not subdirectories. The `find`command works by recursively finding every 
+single file, directory, and subdirectory in your current directory. If you wanted to find files, you would have to take a few steps, using commands such 
+as `grep` and `cat`. Using this command gives you an easy way to find just the files in your directory, making this a very practical tool. For my first 
+example, I used the command `find . -type f` while in the `written_2` directory. The output was every single text file, and the `non_fitcion` and `OUP` 
+directories were not listed, the only appearance of these words is in the path to all the text files, which is the expected result. For my second example 
+I used some commands to change into the `travel_guides` directory and used the `find . -type f` command. Again, none of the subdirectories were listed 
+themselves, but only appeared in the paths to the text files. Source: I used ChatGPT to list some examples of `find` commands, you can find my request 
+[here](https://chat.openai.com/chat). 
+
+__Conclusion__ : Learning about terminal commands and finding different ways in which you can use them can save you a lot of time in the future by 
+providing you with usefuland practical ways in which you want to accomplish certain things. Instead of searching for every directory for a file, you
+can just use the `find` command. Instead of wasting time just to find text files, you can use `find . -type f` to accomplish this task. Many of these
+commands are useful tools that I will carry with me as I continue to learn more about the vast field of computer science.
