@@ -271,7 +271,7 @@ themselves, but only appeared in the paths to the text files. Source: I used Cha
 
 ![Image](Screen Shot 2023-03-13 at 11.23.13 PM.png)
 
-The ChatGPT website link is ![Image](https://chat.openai.com/chat)
+The ChatGPT website link is [here]https://chat.openai.com/chat).
 
 
 --- 
