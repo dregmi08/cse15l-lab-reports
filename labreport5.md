@@ -44,7 +44,7 @@ files that contain that specific string) but you don't have to remember if the f
 remember part of a filename but can't remember the exact name. I cloned the same repository containing the files/directories we used in lab 3, and I 
 switched into `docsearch`, `written_2`, and then `travel_guides` for my first example. I then typed `find .  -iname "amster*"` and got the respective 
 directory. For my second example, I used the command find . -iname "cas*" and got the respective file. My source for this command is 
-[here](https://linuxhandbook.com/find-command-examples/) 
+[here](https://linuxhandbook.com/find-command-examples/).
 
 ---
 
@@ -303,7 +303,7 @@ example, I used the command `find . -type f` while in the `written_2` directory.
 directories were not listed, the only appearance of these words is in the path to all the text files, which is the expected result. For my second example 
 I used some commands to change into the `travel_guides` directory and used the `find . -type f` command. Again, none of the subdirectories were listed 
 themselves, but only appeared in the paths to the text files. Source: I used ChatGPT to list some examples of `find` commands, you can find my request 
-[here](https://chat.openai.com/chat). 
+[here](https://chat.openai.com/chat).
 
 --- 
 
