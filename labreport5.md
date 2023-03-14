@@ -5,6 +5,7 @@ own lab report 3, I explored 5 different way in which `grep` could be used, incl
 For this report, I am going to explore 5 ways in which you can use the `find` command.
 
 ***Some of the terminal output is ommitted because of how long it is***
+
 ---
 
 __First use:__  `find -iname` or searching by approximate name
