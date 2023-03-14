@@ -151,9 +151,9 @@ dronregmi@Drons-MacBook-Air travel_guides % find . -type f -empty
 The purpose of this command is to find all empty files in the current directory and its subdirectories. This `find` command is useful if you don't want to 
 find every single empty file within the directories and delete them, therefore clearing up any clutter in your workspace. In my first example, I called 
 `find . -type f -empty` from the `written_2` directory . I had previously created two empty files within this directory, just for the purposes of this
-demonstration. I named these files `foundfile.txt` and `founfile.txt`, and when calling find . -type f -empty  , these files were listed. For my second 
+demonstration. I named these files `foundfile.txt` and `founfile.txt`, and when calling `find . -type f -empty`, these files were listed. For my second 
 example, I started from the `travel_guides` directory and used the command. Since this file does not contain any files that are empty, nothing was listed.
-My source for finding this command is [here](https://linuxhandbook.com/find-command-examples/)
+My source for finding this command is [here](https://linuxhandbook.com/find-command-examples/).
 
 
 ---
