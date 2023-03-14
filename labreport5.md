@@ -1,8 +1,8 @@
 __Lab Report 5__
 ---
 One particular lab activity that I would like to revisit would be the exploration of the different ways in which you can use `find` and `grep`. In my 
-own lab report 3, I explored 5 different way in which `grep` could be used, including commands such as `grep -v`, `grep "" file_name`, and `grep -c`.
-For this report, I am going to explore 5 ways in which you can use the `find` command.
+own lab report 3, I explored 4 different ways in which `grep` could be used, including commands such as `grep -v`, `grep "" file_name`, and `grep -c`.
+For this report, I am going to explore 4 ways in which you can use the `find` command.
 
 ***Some of the terminal output is ommitted because of how long it is***
 
@@ -155,46 +155,10 @@ demonstration. I named these files `foundfile.txt` and `founfile.txt`, and when 
 example, I started from the `travel_guides` directory and used the command. Since this file does not contain any files that are empty, nothing was listed.
 My source for finding this command is [here](https://linuxhandbook.com/find-command-examples/)
 
----
-
-__Fourth Use:__ `find -size +_M` or finding files larger than _ amount of megabytes
-
-Example #1:
-
-![Image](Screen Shot 2023-03-13 at 12.56.21 AM.png)
-
-
-Here is the command and its output in a code block:
-
-```
-dronregmi@Drons-MacBook-Air travel_guides % find . -size +2M 
-dronregmi@Drons-MacBook-Air travel_guides % 
-```
-
-Example #2:
-
-![Image](Screen Shot 2023-03-13 at 1.05.06 AM.png)
-
-
-Here is the command and its output in a code block:
-
-```
-dronregmi@Drons-MacBook-Air travel_guides % cd ..
-dronregmi@Drons-MacBook-Air written_2 % cd non-fiction 
-dronregmi@Drons-MacBook-Air non-fiction % cd OUP 
-dronregmi@Drons-MacBook-Air OUP % find . -size +1M
-```
-
-The purpose of this command is to find all files that are greater than a specific inputted size. This `find` command is useful if you want to find the 
-files that take up a lot of storage and delete them if you don't need them anymore. In my first example, I called `find . -size +2M` from the 
-`travel_guides` directory, and not a single file way listed, meaning that no files in that directory exceed the size of 1 megabyte. For my second example,
-I switched into the `OUP` directory with a few commands and I used the command `find . -size +1M`. Again, not files appeared to be listed, meaning that no 
-individual file is greater than one megabyte. Source: I used ChatGPT to list some examples of `find` commands, you can find my request 
-[here](https://chat.openai.com/chat). 
 
 ---
 
-__Fifth Use:__ `find . -type f` or finding non-directory files
+__Fourth Use:__ `find . -type f` or finding non-directory files
 
 ![Image](Screen Shot 2023-03-13 at 1.30.00 AM.png)
 
