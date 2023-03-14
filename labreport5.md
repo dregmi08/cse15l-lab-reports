@@ -5,6 +5,7 @@ own lab report 3, I explored 5 different way in which `grep` could be used, incl
 For this report, I am going to explore 5 ways in which you can use the `find` command.
 
 ***Some of the terminal output is ommitted because of how long it is***
+---
 
 __First use:__  `find -iname` or searching by approximate name
 
@@ -42,8 +43,8 @@ also case insensitive, meaning that you can not only find files/directories with
 files that contain that specific string) but you don't have to remember if the file name contains a capital letter. This is very useful if you can only 
 remember part of a filename but can't remember the exact name. I cloned the same repository containing the files/directories we used in lab 3, and I 
 switched into `docsearch`, `written_2`, and then `travel_guides` for my first example. I then typed `find .  -iname "amster*"` and got the respective 
-directory. For my second example, I used the command find . -iname "cas*" and got the respective file. My source for this command is [here]
-(https://linuxhandbook.com/find-command-examples/) 
+directory. For my second example, I used the command find . -iname "cas*" and got the respective file. My source for this command is 
+[here](https://linuxhandbook.com/find-command-examples/) 
 
 ---
 
