@@ -44,7 +44,7 @@ also case insensitive, meaning that you can not only find files/directories with
 files that contain that specific string) but you don't have to remember if the file name contains a capital letter. This is very useful if you can only 
 remember part of a filename but can't remember the exact name. I cloned the same repository containing the files/directories we used in lab 3, and I 
 switched into `docsearch`, `written_2`, and then `travel_guides` for my first example. I then typed `find .  -iname "amster*"` and got the respective 
-directory. For my second example, I used the command find . -iname "cas*" and got the respective file. My source for this command is 
+directory. For my second example, I used the command `find . -iname "cas*"` and got the respective file. My source for this command is 
 [here](https://linuxhandbook.com/find-command-examples/).
 
 ---
