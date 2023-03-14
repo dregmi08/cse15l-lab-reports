@@ -267,8 +267,10 @@ as `grep` and `cat`. Using this command gives you an easy way to find just the f
 example, I used the command `find . -type f` while in the `written_2` directory. The output was every single text file, and the `non_fiction` and `OUP` 
 directories were not listed, the only appearance of these words is in the path to all the text files, which is the expected result. For my second example 
 I used some commands to change into the `travel_guides` directory and used the `find . -type f` command. Again, none of the subdirectories were listed 
-themselves, but only appeared in the paths to the text files. Source: I used ChatGPT to list some examples of `find` commands, you can find my request 
-[here](https://chat.openai.com/chat).
+themselves, but only appeared in the paths to the text files. Source: I used ChatGPT to list some examples of `find` commands, here was its response:
+
+![Image](Screen Shot 2023-03-13 at 11.23.13 PM.png)
+
 
 --- 
 
