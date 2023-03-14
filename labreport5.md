@@ -273,6 +273,6 @@ themselves, but only appeared in the paths to the text files. Source: I used Cha
 --- 
 
 __Conclusion__ : Learning about terminal commands and finding different ways in which you can use them can save you a lot of time in the future by 
-providing you with usefuland practical ways in which you want to accomplish certain things. Instead of searching for every directory for a file, you
+providing you with useful and practical ways in which you want to accomplish certain things. Instead of searching for every directory for a file, you
 can just use the `find` command. Instead of wasting time just to find text files, you can use `find . -type f` to accomplish this task. Many of these
 commands are useful tools that I will carry with me as I continue to learn more about the vast field of computer science.
