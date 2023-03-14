@@ -114,7 +114,7 @@ dronregmi@Drons-MacBook-Air docsearch % find . -type d
 ```
 
 The purpose of this command is to find every directory in the current directory and its subdirectories. This includes the directory you are in when you 
-call this command, as "." is also listed. This `find` command is useful if you don't want to find every single file within the directories. If you just 
+call this command, as `.` is also listed. This `find` command is useful if you don't want to find every single file within the directories. If you just 
 want the names of the directories themselves, you can have them listed for you. For my first example, I called `find . -type d` from the `written_2` 
 directory, and the respective output was all the directories and subdirectories of `written_2`. For my second example, I called `cd ..` to go into the 
 `docsearch` directory and called the same command. This time, I was given more directories, since `docsearch` contains more directories than just 
